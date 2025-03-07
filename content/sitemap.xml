@@ -7,21 +7,6 @@
     </url>
     <url>
         <loc>
-            https://www.axisoft.co/home
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.axisoft.co/home-2
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.axisoft.co/home-3
-        </loc>
-    </url>
-    <url>
-        <loc>
             https://www.axisoft.co/about
         </loc>
     </url>
@@ -43,21 +28,6 @@
     <url>
         <loc>
             https://www.axisoft.co/contact-us
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.axisoft.co/templates/changelog
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.axisoft.co/templates/licenses
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.axisoft.co/templates/style-guide
         </loc>
     </url>
 </urlset>
