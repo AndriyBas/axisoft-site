@@ -1,0 +1,9 @@
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: SAMEORIGIN
+/sb_assets/*
+  X-Robots-Tag: noindex, nofollow
+/sb_static/*
+  X-Robots-Tag: noindex, nofollow
