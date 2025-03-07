@@ -1,14 +1,13 @@
-site: https://remotionevents.webflow.io
-targetHost: https://www.remotionevents.com
+site: https://axisoft-co.webflow.io
+targetHost: https://www.axisoft.co
 robotsTxt: |
   User-agent: * 
   Allow: /
-  Disallow: /example-disallow
-  Sitemap: https://www.remotionevents.com/sitemap.xml
-redirects: |
-  /old-home /ru 301
-  /ua/ua /ua/home 301
-  /ru/ru /ru/home 301
+  Sitemap: https://www.axisoft.co/sitemap.xml
+# redirects: |
+#   /old-home /ru 301
+#   /ua/ua /ua/home 301
+#   /ru/ru /ru/home 301
 # OR - robotsTxt: "User-agent: * \nDisallow: /  \nSitemap: https://pages.doorstead.com/sitemap.xml"
 headers: |
   https://:project.pages.dev/*
