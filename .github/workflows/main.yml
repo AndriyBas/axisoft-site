@@ -1,0 +1,41 @@
+name: webflow-fetch
+
+on:
+  workflow_dispatch:
+    inputs:
+      redirects:
+        description: "_redirect settings"
+        required: false
+        type: string
+      headers:
+        description: "_header settings"
+        required: false
+        type: string
+      robots:
+        description: "robots.txt settings"
+        required: false
+        type: string
+
+jobs:
+  fetch_job:
+    name: Build and Fetch Webflow site content
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Webflow Site content
+        uses: AndriyBas/site-build@v1
+        with:
+          redirects: ${{ inputs.redirects }}
+          headers: ${{ inputs.headers }}
+          robots: ${{ inputs.robots }}
+
+      - name: Commit and Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Webflow Build
+          author_email: webflow.build@sommo.io
+          message: "Site fetched and built 👌🏼"
