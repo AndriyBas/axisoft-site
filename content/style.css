@@ -5806,7 +5806,7 @@ figure {
     margin-right: 15px;
     padding: 10px 15px 20px;
     display: flex;
-    position: relative;
+    position: absolute;
     overflow: scroll;
   }
 
